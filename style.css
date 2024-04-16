@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    width: 420px;
+    background-color: orangered;
+    color: white;
+
+}
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+
+
+}
+
+
+ .div-input{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(149, 144, 144);
+    margin: 30px 0;
+
+
+}
+
+.div-input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(231, 30, 26);
+    border-radius: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.div-input input::placeholder{
+    color: white;
+    
+}
+
+.container .remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+
+.remember label input{
+   accent-color: white;
+    margin-right: 4px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.remember a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.container .button{
+     width: 100%;
+     height: 45px;
+     background: white;
+     border: none;
+     outline: none;
+     border-radius: 40px;
+     box-shadow: 0 0 10px rgb(118, 116, 116);
+     cursor: pointer;
+     font-size: 18px;
+     font-weight: 600;
+
+}
+
+
+.container .create-Acc{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+
+
+}
+
+.create-Acc p a:hover{
+    text-decoration: underline;
+    color: white;
+}
