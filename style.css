@@ -10,13 +10,20 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-
+    background: url(img/backGround.jpg) no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    
 }
 .container{
+  
     width: 420px;
-    background-color: orangered;
-    color: white;
-
+    color: rgb(244, 232, 232);
+    border: 2px solid rgb(243, 153, 153) ;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    padding: 15px;
+   
 }
 
 .container h1{
@@ -30,7 +37,7 @@ body{
  .div-input{
     width: 100%;
     height: 50px;
-    background-color: rgb(149, 144, 144);
+    
     margin: 30px 0;
 
 
@@ -42,7 +49,7 @@ body{
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid rgb(231, 30, 26);
+    border: 2px solid rgb(248, 198, 198);
     border-radius: 40px;
     font-size: 16px;
     text-align: center;
@@ -64,6 +71,7 @@ body{
 .remember label input{
    accent-color: white;
     margin-right: 4px;
+    
 }
 
 
@@ -91,6 +99,10 @@ a{
 
 }
 
+.container  label,p {
+    color: white;
+}
+
 
 .container .create-Acc{
     font-size: 14px;
@@ -105,3 +117,4 @@ a{
     text-decoration: underline;
     color: white;
 }
+
